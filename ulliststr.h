@@ -127,8 +127,8 @@ class ULListStr {
    *  You MUST keep these members though you
    *  may add more if desired.
    */
-  Item* head_;
-  Item* tail_;
+  Item* head_;//points first Item of list
+  Item* tail_;//points last Item of list
   size_t size_;
 };
 
